@@ -44,6 +44,7 @@ body {
 }
 
 .hero-subtext {
+    padding: 24px 0;
     font-size: 18px;
     color: #e5e7eb;
 }
@@ -53,6 +54,7 @@ body {
     border: none;
     color: #f9faf8;
     padding: 8px;
+    margin-top: 12px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -72,7 +74,7 @@ body {
 
 .hero-right {
     flex: 1 1 10%;
-    height: 300px;
+    height: 250px;
 }
 
 .info {
