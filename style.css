@@ -1,0 +1,37 @@
+body {
+    font-family: 'Roboto', arial;
+    margin: 0;
+    padding: 0;
+}
+
+.menu {
+    background-color: #1f2937;
+    display: flex;
+    align-items: center;
+    padding: 10px 15%;
+}
+
+.menu ul {
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
+    list-style: none;
+    gap: 24px;
+}
+
+.menu ul a {
+    text-decoration: none;
+    color: #e5e7eb;
+}
+
+.logo {
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: 700;
+}
+
+.hero {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+}
