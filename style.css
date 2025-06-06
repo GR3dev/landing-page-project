@@ -24,6 +24,10 @@ body {
     color: #e5e7eb;
 }
 
+.menu ul a:hover {
+    color: #3882f6;
+}
+
 .logo {
     font-size: 24px;
     color: #f9faf8;
@@ -41,10 +45,11 @@ body {
     font-size: 48px;
     color: #f9faf8;
     font-weight: 900;
+    padding: 0;
 }
 
 .hero-subtext {
-    padding: 24px 0;
+    padding: 12px 0;
     font-size: 18px;
     color: #e5e7eb;
 }
@@ -63,16 +68,23 @@ body {
     border-radius: 8px;
 }
 
+.hero-button:hover {
+    color: #3882f6;
+    background-color: #f9faf8;
+    cursor: pointer;
+}
+
 .hero-left, .hero-right {
     display: flex;
 }
 
 .hero-left {
-    padding: 48px;
+    padding: 24px 12px;
     flex-direction: column;
 }
 
 .hero-right {
+    padding: 24px 12px;
     flex: 1 1 10%;
     height: 250px;
 }
@@ -94,12 +106,20 @@ body {
     text-align: center;
     gap: 16px;
     flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
+    align-items: stretch;
+    justify-content: space-evenly;
 }
 
 .info-container img {
-    border-radius: 20px;
+    border-radius: 5px;
+}
+
+.card {
+    max-width: 300px;
+    /* border: 1px solid #1f2937; */
+    padding: 12px 24px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 15px #eee;
 }
 
 .quote-container {
@@ -150,4 +170,5 @@ body {
     text-align: center;
     margin: 0;
     padding: 12px;
+    font-size: 12px;
   } 
